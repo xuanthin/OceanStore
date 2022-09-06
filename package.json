@@ -1,0 +1,22 @@
+{
+
+  "version": "1.0.0",
+  "description": "Ocean",
+  "main": "src/app.js",
+  "scripts": {
+    "dxt": "prettier --single-quote --trailing-comma all --tab-width 4 --write src/**/*.{js,json,html}",
+    "start": "nodemon --inspect src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}
